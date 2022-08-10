@@ -1,0 +1,42 @@
+# Project-specific files.
+/tmp_data/
+TODO.md
+
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+/build/
+
+# Python egg metadata, regenerated from source files by setuptools.
+*.egg-info/
+*.egg
+*.eggs
+
+/.cache/
+/.pytest_cache/
+
+# Automatic version detection
+/src/psiz_database/version.py
+
+# Sphinx documentation
+/docs/_build
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Visual Studio Code
+/.vscode/
