@@ -1,0 +1,4 @@
+content.data-type.categorical
+content.data-type.text
+content.data-type.time-series
+content.subject.education

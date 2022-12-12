@@ -1,0 +1,11 @@
+local_id|filepath|category|diagnosis
+0000001|/skin_lesions_2018/benign/blue_nevus/blue_nevus_1.jpg|blue nevus|benign
+0000002|/skin_lesions_2018/benign/blue_nevus/Blue_nevus_11.jpg|blue nevus|benign
+0000003|/skin_lesions_2018/benign/blue_nevus/blue_nevus_12.jpg|blue nevus|benign
+0000004|/skin_lesions_2018/benign/blue_nevus/blue_nevus_14.jpg|blue nevus|benign
+0000005|/skin_lesions_2018/benign/blue_nevus/blue_nevus_15.jpg|blue nevus|benign
+0000006|/skin_lesions_2018/benign/blue_nevus/blue_nevus_16.jpg|blue nevus|benign
+0000007|/skin_lesions_2018/benign/blue_nevus/blue_nevus_17.jpg|blue nevus|benign
+0000008|/skin_lesions_2018/benign/blue_nevus/blue_nevus_18.jpg|blue nevus|benign
+0000009|/skin_lesions_2018/benign/blue_nevus/blue_nevus_2.jpg|blue nevus|benign
+000000A|/skin_lesions_2018/benign/blue_nevus/blue_nevus_20.jpg|blue nevus|benign

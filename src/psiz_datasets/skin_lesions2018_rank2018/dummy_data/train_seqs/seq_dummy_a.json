@@ -1,0 +1,1999 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "sequence_id": 38,
+            "anonymous_id": "edd3a659-25a5-48c3-b057-39feb2943422",
+            "design_id": 3,
+            "project": "rank:SkinLesions2018",
+            "stimulus_set": "SkinLesions2018",
+            "protocol": "lesions-0",
+            "time_begin": "2016-08-03T15:42:47",
+            "time_end": "2016-08-03T15:49:25",
+            "n_timestep": 30,
+            "grade": 67,
+            "sequence": [
+                {
+                    "position": 0,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:42:50",
+                    "time_end": "2016-08-03T15:42:57",
+                    "response_time_ms": 7004,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:42:50",
+                            "kind": "content:query",
+                            "detail": "PZ0020000004"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:50",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000002"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:50",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000000Q"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:50",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000004V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:50",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000003X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:50",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000002B"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:50",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000002Q"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:50",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000005I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:50",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000005V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:57",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000002"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:42:57",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000000Q"
+                        }
+                    ]
+                },
+                {
+                    "position": 1,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:43:03",
+                    "time_end": "2016-08-03T15:43:23",
+                    "response_time_ms": 19988,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:43:03",
+                            "kind": "content:query",
+                            "detail": "PZ002000004U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:03",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000005F"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:03",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000005B"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:03",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000004P"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:03",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000004Z"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:03",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000054"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:03",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0020000055"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:03",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000057"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:03",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000005G"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:23",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000005F"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:23",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000005B"
+                        }
+                    ]
+                },
+                {
+                    "position": 2,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:43:28",
+                    "time_end": "2016-08-03T15:44:23",
+                    "response_time_ms": 54600,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:43:28",
+                            "kind": "content:query",
+                            "detail": "PZ002000002B"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:28",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000028"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:28",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0020000023"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:28",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000001R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:28",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000001W"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:28",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000001Y"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:28",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0020000026"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:28",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000027"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:43:28",
+                            "kind": "content:reference_7",
+                            "detail": "PZ0020000029"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:23",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000028"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:23",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0020000023"
+                        }
+                    ]
+                },
+                {
+                    "position": 3,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:44:27",
+                    "time_end": "2016-08-03T15:44:31",
+                    "response_time_ms": 4016,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:44:27",
+                            "kind": "content:query",
+                            "detail": "PZ002000003J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:27",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000003Y"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:27",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000001Y"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:27",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000001J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:27",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000002B"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:27",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000002E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:27",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000002I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:27",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000002J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:27",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000006L"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:31",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000003Y"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:31",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000001Y"
+                        }
+                    ]
+                },
+                {
+                    "position": 4,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:44:34",
+                    "time_end": "2016-08-03T15:44:36",
+                    "response_time_ms": 2650,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:44:34",
+                            "kind": "content:query",
+                            "detail": "PZ002000004Q"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:34",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000031"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:34",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000003U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:34",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000003L"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:34",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000003Q"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:34",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000019"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:34",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000002Q"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:34",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000006G"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:34",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000006I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:36",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000031"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:36",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000003U"
+                        }
+                    ]
+                },
+                {
+                    "position": 5,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:44:41",
+                    "time_end": "2016-08-03T15:44:50",
+                    "response_time_ms": 8938,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:44:41",
+                            "kind": "content:query",
+                            "detail": "PZ002000001C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:41",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000001X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:41",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0020000010"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:41",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000003C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:41",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000000I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:41",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000000N"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:41",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0020000042"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:41",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000002V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:41",
+                            "kind": "content:reference_7",
+                            "detail": "PZ0020000032"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:50",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000001X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:50",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0020000010"
+                        }
+                    ]
+                },
+                {
+                    "position": 6,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:44:51",
+                    "time_end": "2016-08-03T15:44:57",
+                    "response_time_ms": 5880,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:query",
+                            "detail": "PZ002000004T"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000005D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000004V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0020000054"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0020000055"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000057"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0020000058"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000005E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000005G"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:57",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000005D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:57",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000004V"
+                        }
+                    ]
+                },
+                {
+                    "position": 7,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:44:51",
+                    "time_end": "2016-08-03T15:46:27",
+                    "response_time_ms": 95587,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:query",
+                            "detail": "PZ002000001V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000016"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000003N"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000003R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0020000012"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000042"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000001M"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000002N"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:44:51",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000006G"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:27",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000016"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:27",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000003N"
+                        }
+                    ]
+                },
+                {
+                    "position": 8,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:46:30",
+                    "time_end": "2016-08-03T15:46:34",
+                    "response_time_ms": 4177,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:46:30",
+                            "kind": "content:query",
+                            "detail": "PZ002000004W"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:30",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000029"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:30",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000002L"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:30",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000005E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:30",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000003A"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:30",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000003M"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:30",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000001T"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:30",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000002M"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:30",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000005J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:34",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000029"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:34",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000002L"
+                        }
+                    ]
+                },
+                {
+                    "position": 9,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:46:39",
+                    "time_end": "2016-08-03T15:46:43",
+                    "response_time_ms": 3586,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:46:39",
+                            "kind": "content:query",
+                            "detail": "PZ0020000003"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:39",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000000M"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:39",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000000H"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:39",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0020000001"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:39",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0020000005"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:39",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000000E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:39",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000000I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:39",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000000R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:39",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000000X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:43",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000000M"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:43",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000000H"
+                        }
+                    ]
+                },
+                {
+                    "position": 10,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:46:44",
+                    "time_end": "2016-08-03T15:46:49",
+                    "response_time_ms": 5120,
+                    "grade_subjective": 100,
+                    "grade_objective": 0,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:46:44",
+                            "kind": "content:query",
+                            "detail": "PZ002000002V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:44",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000000R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:44",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0020000059"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:44",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000003C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:44",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000003P"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:44",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000000E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:44",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000003X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:44",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000001U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:44",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000002V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:49",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000000R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:49",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0020000059"
+                        }
+                    ]
+                },
+                {
+                    "position": 11,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:46:53",
+                    "time_end": "2016-08-03T15:46:58",
+                    "response_time_ms": 4835,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:46:53",
+                            "kind": "content:query",
+                            "detail": "PZ0020000015"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:53",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000017"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:53",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000001H"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:53",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0020000012"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:53",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000001C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:53",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000001D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:53",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000001E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:53",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000001G"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:53",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000001J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:58",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000017"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:46:58",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000001H"
+                        }
+                    ]
+                },
+                {
+                    "position": 12,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:47:02",
+                    "time_end": "2016-08-03T15:47:05",
+                    "response_time_ms": 3408,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:47:02",
+                            "kind": "content:query",
+                            "detail": "PZ002000005I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:02",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000003B"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:02",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000003I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:02",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000003K"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:02",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000002E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:02",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000002G"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:02",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0020000064"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:02",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000006D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:02",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000006F"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:05",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000003B"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:05",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000003I"
+                        }
+                    ]
+                },
+                {
+                    "position": 13,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:47:09",
+                    "time_end": "2016-08-03T15:47:22",
+                    "response_time_ms": 13010,
+                    "grade_subjective": 100,
+                    "grade_objective": 100,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:47:09",
+                            "kind": "content:query",
+                            "detail": "PZ0020000068"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:09",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000068"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:09",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000003W"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:09",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000000J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:09",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000001L"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:09",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000002T"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:09",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000002U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:09",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000037"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:09",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000006G"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:22",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000068"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:22",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000003W"
+                        }
+                    ]
+                },
+                {
+                    "position": 14,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:47:27",
+                    "time_end": "2016-08-03T15:47:39",
+                    "response_time_ms": 11928,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:47:27",
+                            "kind": "content:query",
+                            "detail": "PZ002000000D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:27",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000008"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:27",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000000U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:27",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0020000002"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:27",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0020000001"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:27",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000009"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:27",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000000A"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:27",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000000K"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:27",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000000V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:39",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000008"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:39",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000000U"
+                        }
+                    ]
+                },
+                {
+                    "position": 15,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:47:42",
+                    "time_end": "2016-08-03T15:47:49",
+                    "response_time_ms": 6887,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:47:42",
+                            "kind": "content:query",
+                            "detail": "PZ002000004J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:42",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000003J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:42",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000002Z"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:42",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000000K"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:42",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000000W"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:42",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000002A"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:42",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000002F"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:42",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000036"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:42",
+                            "kind": "content:reference_7",
+                            "detail": "PZ0020000067"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:49",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000003J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:49",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000002Z"
+                        }
+                    ]
+                },
+                {
+                    "position": 16,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:47:55",
+                    "time_end": "2016-08-03T15:48:04",
+                    "response_time_ms": 8895,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:47:55",
+                            "kind": "content:query",
+                            "detail": "PZ002000003P"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:55",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000003Z"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:55",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000005R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:55",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000004V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:55",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000003R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:55",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000026"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:55",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000002H"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:55",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000066"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:47:55",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000006G"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:04",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000003Z"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:04",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000005R"
+                        }
+                    ]
+                },
+                {
+                    "position": 17,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:48:07",
+                    "time_end": "2016-08-03T15:48:10",
+                    "response_time_ms": 3119,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:48:07",
+                            "kind": "content:query",
+                            "detail": "PZ002000006C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:07",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000006D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:07",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0020000061"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:07",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0020000010"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:07",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000001O"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:07",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000022"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:07",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000002B"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:07",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000002O"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:07",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000002X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:10",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000006D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:10",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0020000061"
+                        }
+                    ]
+                },
+                {
+                    "position": 18,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:48:11",
+                    "time_end": "2016-08-03T15:48:14",
+                    "response_time_ms": 2783,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:48:11",
+                            "kind": "content:query",
+                            "detail": "PZ0020000016"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:11",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000001H"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:11",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0020000015"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:11",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000000Z"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:11",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0020000011"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:11",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000001C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:11",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000001D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:11",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000001J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:11",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000001K"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:14",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000001H"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:14",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0020000015"
+                        }
+                    ]
+                },
+                {
+                    "position": 19,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:48:15",
+                    "time_end": "2016-08-03T15:48:20",
+                    "response_time_ms": 4271,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:48:15",
+                            "kind": "content:query",
+                            "detail": "PZ0020000067"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:15",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000001E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:15",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000005Z"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:15",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0020000058"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:15",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000003R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:15",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000001Q"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:15",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000002A"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:15",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000002V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:15",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000005P"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:20",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000001E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:20",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000005Z"
+                        }
+                    ]
+                },
+                {
+                    "position": 20,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:48:21",
+                    "time_end": "2016-08-03T15:48:25",
+                    "response_time_ms": 3155,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:48:21",
+                            "kind": "content:query",
+                            "detail": "PZ002000001R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:21",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000002X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:21",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000001C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:21",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0020000002"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:21",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000004O"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:21",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000005C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:21",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000000X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:21",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000044"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:21",
+                            "kind": "content:reference_7",
+                            "detail": "PZ0020000061"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:25",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000002X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:25",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000001C"
+                        }
+                    ]
+                },
+                {
+                    "position": 21,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:48:29",
+                    "time_end": "2016-08-03T15:48:32",
+                    "response_time_ms": 3576,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:48:29",
+                            "kind": "content:query",
+                            "detail": "PZ0020000049"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:29",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000048"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:29",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000004I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:29",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000003X"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:29",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000003Y"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:29",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000004A"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:29",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000004J"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:29",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000004L"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:29",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000004N"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:32",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000048"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:32",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000004I"
+                        }
+                    ]
+                },
+                {
+                    "position": 22,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:48:37",
+                    "time_end": "2016-08-03T15:48:46",
+                    "response_time_ms": 9391,
+                    "grade_subjective": 100,
+                    "grade_objective": 100,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:48:37",
+                            "kind": "content:query",
+                            "detail": "PZ0020000052"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:37",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000052"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:37",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0020000053"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:37",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000004Z"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:37",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000003U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:37",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000018"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:37",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000004N"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:37",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000001M"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:37",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000002U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:46",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000052"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:46",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0020000053"
+                        }
+                    ]
+                },
+                {
+                    "position": 23,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:48:48",
+                    "time_end": "2016-08-03T15:48:52",
+                    "response_time_ms": 3714,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:48:48",
+                            "kind": "content:query",
+                            "detail": "PZ002000003E"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:48",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000004K"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:48",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000005U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:48",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000003B"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:48",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000000R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:48",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000001D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:48",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000002C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:48",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000032"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:48",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000005P"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:52",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000004K"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:52",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000005U"
+                        }
+                    ]
+                },
+                {
+                    "position": 24,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:48:53",
+                    "time_end": "2016-08-03T15:48:57",
+                    "response_time_ms": 3929,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:48:53",
+                            "kind": "content:query",
+                            "detail": "PZ002000003M"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:53",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000002I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:53",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000002F"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:53",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000003T"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:53",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0020000018"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:53",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000001A"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:53",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0020000040"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:53",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000046"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:53",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000001R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:57",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000002I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:57",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000002F"
+                        }
+                    ]
+                },
+                {
+                    "position": 25,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:48:59",
+                    "time_end": "2016-08-03T15:49:03",
+                    "response_time_ms": 4050,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:48:59",
+                            "kind": "content:query",
+                            "detail": "PZ002000004H"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:59",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000059"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:59",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000000V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:59",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0020000058"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:59",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0020000009"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:59",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000015"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:59",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000005O"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:59",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000005S"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:48:59",
+                            "kind": "content:reference_7",
+                            "detail": "PZ0020000061"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:03",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000059"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:03",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000000V"
+                        }
+                    ]
+                },
+                {
+                    "position": 26,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:49:07",
+                    "time_end": "2016-08-03T15:49:10",
+                    "response_time_ms": 3408,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:49:07",
+                            "kind": "content:query",
+                            "detail": "PZ0020000050"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:07",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000005C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:07",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000004R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:07",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000004S"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:07",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000004V"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:07",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000004Y"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:07",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0020000056"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:07",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000057"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:07",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000005B"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:10",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000005C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:10",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000004R"
+                        }
+                    ]
+                },
+                {
+                    "position": 27,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:49:13",
+                    "time_end": "2016-08-03T15:49:16",
+                    "response_time_ms": 3137,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:49:13",
+                            "kind": "content:query",
+                            "detail": "PZ002000000F"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:13",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000065"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:13",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000005M"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:13",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000003K"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:13",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0020000006"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:13",
+                            "kind": "content:reference_4",
+                            "detail": "PZ002000000I"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:13",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0020000029"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:13",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000002W"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:13",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000005O"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000065"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000005M"
+                        }
+                    ]
+                },
+                {
+                    "position": 28,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:49:16",
+                    "time_end": "2016-08-03T15:49:21",
+                    "response_time_ms": 4397,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "content:query",
+                            "detail": "PZ0020000052"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "content:reference_0",
+                            "detail": "PZ002000006C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "content:reference_1",
+                            "detail": "PZ002000001O"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000004U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0020000055"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000058"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000000R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0020000017"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:16",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000004N"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:21",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ002000006C"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:21",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ002000001O"
+                        }
+                    ]
+                },
+                {
+                    "position": 29,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2016-08-03T15:49:22",
+                    "time_end": "2016-08-03T15:49:25",
+                    "response_time_ms": 3474,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2016-08-03T15:49:22",
+                            "kind": "content:query",
+                            "detail": "PZ002000001O"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:22",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0020000012"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:22",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0020000004"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:22",
+                            "kind": "content:reference_2",
+                            "detail": "PZ002000000U"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:22",
+                            "kind": "content:reference_3",
+                            "detail": "PZ002000001D"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:22",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0020000041"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:22",
+                            "kind": "content:reference_5",
+                            "detail": "PZ002000004K"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:22",
+                            "kind": "content:reference_6",
+                            "detail": "PZ002000002F"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:22",
+                            "kind": "content:reference_7",
+                            "detail": "PZ002000002R"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:25",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0020000012"
+                        },
+                        {
+                            "time_begin": "2016-08-03T15:49:25",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0020000004"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

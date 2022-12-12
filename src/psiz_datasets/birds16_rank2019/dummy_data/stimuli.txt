@@ -1,0 +1,11 @@
+local_id|filepath|taxonomic_family|common_name
+0000001|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0002_36648.jpg|Cardinalidae|Blue Grosbeak
+0000002|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0009_36992.jpg|Cardinalidae|Blue Grosbeak
+0000003|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0014_36708.jpg|Cardinalidae|Blue Grosbeak
+0000004|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0024_36680.jpg|Cardinalidae|Blue Grosbeak
+0000005|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0025_36646.jpg|Cardinalidae|Blue Grosbeak
+0000006|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0031_37173.jpg|Cardinalidae|Blue Grosbeak
+0000007|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0033_36980.jpg|Cardinalidae|Blue Grosbeak
+0000008|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0037_36794.jpg|Cardinalidae|Blue Grosbeak
+0000009|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0038_37095.jpg|Cardinalidae|Blue Grosbeak
+000000A|/birds_16/Cardinalidae/Blue_Grosbeak/Blue_Grosbeak_0041_37174.jpg|Cardinalidae|Blue Grosbeak

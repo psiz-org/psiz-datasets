@@ -1,0 +1,3569 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "sequence_id": 4252,
+            "anonymous_id": "ecc94f8c-432a-409f-a8d7-160280d20f06",
+            "design_id": 1654,
+            "project": "rank:ILSVRC2012-val",
+            "stimulus_set": "ILSVRC2012-val",
+            "protocol": "protocol_test_0-2.json",
+            "time_begin": "2020-03-09T16:17:54",
+            "time_end": "2020-03-09T16:33:29",
+            "n_timestep": 50,
+            "grade": 100,
+            "sequence": [
+                {
+                    "position": 0,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:20:33",
+                    "time_end": "2020-03-09T10:20:43",
+                    "response_time_ms": 9681,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:20:33",
+                            "kind": "content:query",
+                            "detail": "PZ00400000G0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:33",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000ES"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:33",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000J7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:33",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000007T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:33",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000N6"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:33",
+                            "kind": "content:reference_4",
+                            "detail": "PZ004000004W"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:33",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0040000077"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:33",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000004D"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:33",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000R2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:40",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000N6"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:40",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000ES"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 1,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:20:43",
+                    "time_end": "2020-03-09T10:21:00",
+                    "response_time_ms": 17062,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "content:query",
+                            "detail": "PZ0040000051"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0040000079"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0040000003"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000003G"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000FJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000LG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000008V"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000MZ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:43",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000003I"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:54",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0040000079"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:20:54",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0040000003"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 2,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:21:00",
+                    "time_end": "2020-03-09T10:21:09",
+                    "response_time_ms": 9286,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "content:query",
+                            "detail": "PZ00400000QC"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0040000063"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000003R"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000EC"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000M8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "content:reference_4",
+                            "detail": "PZ004000009I"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000MD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0040000077"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:00",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000NQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:04",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000NQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:04",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000MD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:09",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 3,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:21:10",
+                    "time_end": "2020-03-09T10:21:25",
+                    "response_time_ms": 14659,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:21:10",
+                            "kind": "content:query",
+                            "detail": "PZ00400000IH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:10",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000G9"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:10",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000DR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:10",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000C5"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:10",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000QP"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:10",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000BP"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:10",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000JU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:10",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000HR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:10",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000IM"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:18",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000JU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:18",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000DR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:25",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 4,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:21:24",
+                    "time_end": "2020-03-09T10:22:02",
+                    "response_time_ms": 38314,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:21:24",
+                            "kind": "content:query",
+                            "detail": "PZ004000001Y"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:24",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000JL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:24",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000G4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:24",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0040000065"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:24",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000001Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:24",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000AS"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:24",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000QA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:24",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000HE"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:24",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000KB"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:59",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000001Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:21:59",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000QA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:02",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 5,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:22:03",
+                    "time_end": "2020-03-09T10:22:15",
+                    "response_time_ms": 11583,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:22:03",
+                            "kind": "content:query",
+                            "detail": "PZ004000000D"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:03",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0040000013"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:03",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000005S"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:03",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000EU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:03",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000004T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:03",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000KJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:03",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000KR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:03",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000F1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:03",
+                            "kind": "content:reference_7",
+                            "detail": "PZ0040000031"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:11",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0040000031"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:11",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0040000013"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:15",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 6,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:22:14",
+                    "time_end": "2020-03-09T10:22:41",
+                    "response_time_ms": 26930,
+                    "grade_subjective": 100,
+                    "grade_objective": 100,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:22:14",
+                            "kind": "content:query",
+                            "detail": "PZ00400000OL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:14",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000DD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:14",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000QN"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:14",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000N4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:14",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000000O"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:14",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0040000092"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:14",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000NM"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:14",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0040000077"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:14",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000OL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:33",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000OL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:33",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000DD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 7,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:22:41",
+                    "time_end": "2020-03-09T10:22:55",
+                    "response_time_ms": 14433,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "content:query",
+                            "detail": "PZ004000001X"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000P1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000B5"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000008V"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000R1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0040000051"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000JQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000007P"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:41",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000K2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:54",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000007P"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:54",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000R1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:55",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 8,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:22:56",
+                    "time_end": "2020-03-09T10:24:03",
+                    "response_time_ms": 66996,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:22:56",
+                            "kind": "content:query",
+                            "detail": "PZ004000005H"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:56",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000QF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:56",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000OF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:56",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000LE"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:56",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000Q1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:56",
+                            "kind": "content:reference_4",
+                            "detail": "PZ004000002W"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:56",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000Q9"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:56",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000000B"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:22:56",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000003J"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:23:51",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000000B"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:23:51",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ004000002W"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 9,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:24:03",
+                    "time_end": "2020-03-09T10:24:15",
+                    "response_time_ms": 11634,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "content:query",
+                            "detail": "PZ004000000A"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000GX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000FG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000EJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000L0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000CU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000008R"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000OI"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:03",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000000N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:12",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000000N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:12",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ004000008R"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 10,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:24:15",
+                    "time_end": "2020-03-09T10:24:41",
+                    "response_time_ms": 25806,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "content:query",
+                            "detail": "PZ00400000A3"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000HC"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000LH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000002Z"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000ME"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000E0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000003E"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0040000029"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:15",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000H2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:37",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000002Z"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:37",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0040000029"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 11,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:24:41",
+                    "time_end": "2020-03-09T10:24:54",
+                    "response_time_ms": 13448,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "content:query",
+                            "detail": "PZ00400000PX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000001U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000F7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000003H"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000L9"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000CF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0040000082"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000B7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:41",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000MU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:51",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000003H"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:51",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000MU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 12,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:24:54",
+                    "time_end": "2020-03-09T10:25:26",
+                    "response_time_ms": 31972,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "content:query",
+                            "detail": "PZ00400000P8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000EM"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000I1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000NG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000NL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "content:reference_4",
+                            "detail": "PZ004000003N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000H5"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000002G"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:24:54",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000M1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:23",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000M1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:23",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000H5"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 13,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:25:26",
+                    "time_end": "2020-03-09T10:25:35",
+                    "response_time_ms": 8605,
+                    "grade_subjective": 100,
+                    "grade_objective": 100,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "content:query",
+                            "detail": "PZ00400000BJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000LU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000BJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0040000098"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000L6"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000Q7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000MQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000004G"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:26",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000BV"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:29",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000BJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:29",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000LU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 14,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:25:35",
+                    "time_end": "2020-03-09T10:25:52",
+                    "response_time_ms": 16684,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "content:query",
+                            "detail": "PZ00400000DG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000EL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000FF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000NE"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0040000029"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0040000090"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0040000019"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000IN"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:35",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000HA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:50",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000HA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:50",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000FF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 15,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:25:52",
+                    "time_end": "2020-03-09T10:26:30",
+                    "response_time_ms": 37902,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "content:query",
+                            "detail": "PZ00400000QS"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000006R"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0040000043"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000NG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000O4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "content:reference_4",
+                            "detail": "PZ004000003T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000008F"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0040000078"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:25:52",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000002V"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:23",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000003T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:23",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0040000043"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 16,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:26:30",
+                    "time_end": "2020-03-09T10:27:01",
+                    "response_time_ms": 31143,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "content:query",
+                            "detail": "PZ00400000H9"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000I4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000I1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000002Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0040000097"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000IT"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0040000020"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000CI"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:30",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000HK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:56",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000I4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:26:56",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000I1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 17,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:27:01",
+                    "time_end": "2020-03-09T10:27:39",
+                    "response_time_ms": 37811,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "content:query",
+                            "detail": "PZ0040000046"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000006Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000H1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000007B"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000PL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000H0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000000T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0040000032"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:01",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000003N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:34",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0040000032"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:34",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ004000003N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 18,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:27:39",
+                    "time_end": "2020-03-09T10:27:55",
+                    "response_time_ms": 16008,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "content:query",
+                            "detail": "PZ004000007F"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0040000025"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000IY"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000EA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000J8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000A7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000LR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000006Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:39",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000001A"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:44",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000006Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:44",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000A7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 19,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:27:55",
+                    "time_end": "2020-03-09T10:28:08",
+                    "response_time_ms": 12670,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "content:query",
+                            "detail": "PZ00400000KU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000006X"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000CW"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000002Z"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000008U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000CX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000O2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000JL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:27:55",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000008E"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:04",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000008U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:04",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000CX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:08",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 20,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:28:07",
+                    "time_end": "2020-03-09T10:28:26",
+                    "response_time_ms": 19093,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:28:07",
+                            "kind": "content:query",
+                            "detail": "PZ00400000HI"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:07",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0040000012"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:07",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000N0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:07",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0040000025"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:07",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000006T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:07",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000CO"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:07",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000PA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:07",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000F8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:07",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000AY"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:21",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000006T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:21",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000CO"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:26",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 21,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:28:27",
+                    "time_end": "2020-03-09T10:28:36",
+                    "response_time_ms": 8982,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:28:27",
+                            "kind": "content:query",
+                            "detail": "PZ00400000O4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:27",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000001R"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:27",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000003P"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:27",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000OH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:27",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000J1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:27",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000GW"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:27",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000002Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:27",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0040000019"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:27",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000003A"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:31",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000OH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:31",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000GW"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 22,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:28:36",
+                    "time_end": "2020-03-09T10:28:40",
+                    "response_time_ms": 4451,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "content:query",
+                            "detail": "PZ00400000RI"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000Q2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000007M"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000HO"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000IH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000RD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000GI"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000KR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:36",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000KN"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:38",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000Q2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:38",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000RD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 23,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:28:40",
+                    "time_end": "2020-03-09T10:28:45",
+                    "response_time_ms": 5385,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "content:query",
+                            "detail": "PZ004000004C"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000C0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000H1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000DH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000B7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000FH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000007G"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000LT"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:40",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000Q8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:42",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000007G"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:42",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000C0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:45",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 24,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:28:46",
+                    "time_end": "2020-03-09T10:28:56",
+                    "response_time_ms": 9724,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:28:46",
+                            "kind": "content:query",
+                            "detail": "PZ0040000029"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:46",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000LS"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:46",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000RF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:46",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000Q3"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:46",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000CE"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:46",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000L5"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:46",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000ES"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:46",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000007Y"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:46",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000EY"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:53",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000007Y"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:53",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000RF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:56",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 25,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:28:55",
+                    "time_end": "2020-03-09T10:29:04",
+                    "response_time_ms": 8735,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:28:55",
+                            "kind": "content:query",
+                            "detail": "PZ00400000QY"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:55",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000CR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:55",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000006D"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:55",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000B8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:55",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000001B"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:55",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000BK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:55",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000AA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:55",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000AJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:55",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000001X"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:58",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000BK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:28:58",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000B8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 26,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:29:04",
+                    "time_end": "2020-03-09T10:29:16",
+                    "response_time_ms": 11524,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "content:query",
+                            "detail": "PZ00400000KK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0040000095"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000DA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000DH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000RG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0040000067"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000PF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000006U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:04",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000F1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:09",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0040000095"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:09",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000RG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 27,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:29:16",
+                    "time_end": "2020-03-09T10:29:20",
+                    "response_time_ms": 3614,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "content:query",
+                            "detail": "PZ00400000RD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000CG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000001V"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000NK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000GE"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000KT"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000RL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000I1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:16",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000009T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:18",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000RL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:18",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ004000001V"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:20",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 28,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:29:19",
+                    "time_end": "2020-03-09T10:29:31",
+                    "response_time_ms": 11747,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:29:19",
+                            "kind": "content:query",
+                            "detail": "PZ00400000FA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:19",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000B1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:19",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000003R"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:19",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000OH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:19",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000002L"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:19",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0040000012"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:19",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000CQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:19",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000002N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:19",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000B6"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:24",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000B6"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:24",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000OH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 29,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:29:31",
+                    "time_end": "2020-03-09T10:29:36",
+                    "response_time_ms": 5482,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "content:query",
+                            "detail": "PZ004000005H"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000H0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000PQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000005N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000002J"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000NB"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000009U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000002R"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:31",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000OV"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:33",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000005N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:33",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ004000002J"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:36",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 30,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:29:37",
+                    "time_end": "2020-03-09T10:29:46",
+                    "response_time_ms": 9454,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:29:37",
+                            "kind": "content:query",
+                            "detail": "PZ00400000QU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:37",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000FM"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:37",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000009Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:37",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000GQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:37",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000JY"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:37",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000QB"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:37",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000LY"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:37",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000F1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:37",
+                            "kind": "content:reference_7",
+                            "detail": "PZ0040000037"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:42",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ0040000037"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:42",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000QB"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 31,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:29:46",
+                    "time_end": "2020-03-09T10:29:52",
+                    "response_time_ms": 5896,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "content:query",
+                            "detail": "PZ00400000NR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000K5"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000007X"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000QX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000008A"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0040000023"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000008I"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000AL"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:46",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000M3"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:49",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000QX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:49",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000M3"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 32,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:29:52",
+                    "time_end": "2020-03-09T10:29:58",
+                    "response_time_ms": 6407,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "content:query",
+                            "detail": "PZ004000004J"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0040000082"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000D8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000005B"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000D7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "content:reference_4",
+                            "detail": "PZ004000005Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000001T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000P2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:52",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000E3"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:54",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000005B"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:54",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ004000005Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:58",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 33,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:29:59",
+                    "time_end": "2020-03-09T10:30:10",
+                    "response_time_ms": 10700,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:29:59",
+                            "kind": "content:query",
+                            "detail": "PZ004000008N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:59",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000HX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:59",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000KB"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:59",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000BQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:59",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000A2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:59",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000NO"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:59",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000DR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:59",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000004K"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:29:59",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000QR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:04",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000HX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:04",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000A2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 34,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:30:10",
+                    "time_end": "2020-03-09T10:30:19",
+                    "response_time_ms": 9047,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "content:query",
+                            "detail": "PZ00400000MF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000005D"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000LA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000FZ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000FK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000BP"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000FN"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000OK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:10",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000BD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:17",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000BP"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:17",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000BD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 35,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:30:19",
+                    "time_end": "2020-03-09T10:30:23",
+                    "response_time_ms": 3877,
+                    "grade_subjective": 100,
+                    "grade_objective": 100,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "content:query",
+                            "detail": "PZ00400000FA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000GG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000MD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000FA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000JP"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000H5"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000004S"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000A1"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:19",
+                            "kind": "content:reference_7",
+                            "detail": "PZ0040000073"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:20",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000FA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:20",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000GG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 36,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:30:23",
+                    "time_end": "2020-03-09T10:30:28",
+                    "response_time_ms": 4631,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "content:query",
+                            "detail": "PZ00400000CQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000000H"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000GG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000PJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000DI"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000DJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000M0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000000Z"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:23",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000F5"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:25",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000DJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:25",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000DI"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:28",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 37,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:30:27",
+                    "time_end": "2020-03-09T10:30:35",
+                    "response_time_ms": 8116,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:30:27",
+                            "kind": "content:query",
+                            "detail": "PZ004000000F"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:27",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000PH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:27",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0040000048"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:27",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000G6"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:27",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000PW"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:27",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000O7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:27",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000AK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:27",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000L0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:27",
+                            "kind": "content:reference_7",
+                            "detail": "PZ0040000045"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:32",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000O7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:32",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0040000045"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 38,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:30:35",
+                    "time_end": "2020-03-09T10:30:42",
+                    "response_time_ms": 7212,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "content:query",
+                            "detail": "PZ004000005K"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000E6"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000006U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "content:reference_2",
+                            "detail": "PZ0040000047"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000000H"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000LU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "content:reference_5",
+                            "detail": "PZ004000000C"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "content:reference_6",
+                            "detail": "PZ0040000063"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:35",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000CW"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:38",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000006U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:38",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ0040000063"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:42",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 39,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:30:43",
+                    "time_end": "2020-03-09T10:32:12",
+                    "response_time_ms": 88618,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:30:43",
+                            "kind": "content:query",
+                            "detail": "PZ00400000QJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:43",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000004D"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:43",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000CA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:43",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000AW"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:43",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000006A"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:43",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000IN"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:43",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000IV"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:43",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000D9"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:30:43",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000004U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:09",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000CA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:09",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000D9"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:12",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 40,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:32:11",
+                    "time_end": "2020-03-09T10:32:22",
+                    "response_time_ms": 10973,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:32:11",
+                            "kind": "content:query",
+                            "detail": "PZ004000007J"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:11",
+                            "kind": "content:reference_0",
+                            "detail": "PZ0040000063"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:11",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000001X"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:11",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000006V"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:11",
+                            "kind": "content:reference_3",
+                            "detail": "PZ004000005J"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:11",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000PR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:11",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0040000057"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:11",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000C3"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:11",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000I9"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:16",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ004000005J"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:16",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ004000006V"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 41,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:32:22",
+                    "time_end": "2020-03-09T10:32:26",
+                    "response_time_ms": 4213,
+                    "grade_subjective": 100,
+                    "grade_objective": 100,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "content:query",
+                            "detail": "PZ00400000MA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000MA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000004Q"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000FK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000AR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000CM"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000FJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000R8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:22",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000000R"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:23",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000MA"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:23",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000FJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:26",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 42,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:32:27",
+                    "time_end": "2020-03-09T10:32:37",
+                    "response_time_ms": 9823,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:32:27",
+                            "kind": "content:query",
+                            "detail": "PZ00400000JP"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:27",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000004U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:27",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0040000070"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:27",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000GN"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:27",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000E3"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:27",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000OF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:27",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000L4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:27",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000004F"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:27",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000008I"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:35",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000OF"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:35",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000GN"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 43,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:32:37",
+                    "time_end": "2020-03-09T10:32:43",
+                    "response_time_ms": 5526,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "content:query",
+                            "detail": "PZ004000007W"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000NR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000NH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000LM"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000NC"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000BO"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000H4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000CY"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:37",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000IH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:41",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000LM"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:41",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000NH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:43",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 44,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:32:42",
+                    "time_end": "2020-03-09T10:32:49",
+                    "response_time_ms": 6581,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:32:42",
+                            "kind": "content:query",
+                            "detail": "PZ00400000MH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:42",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000QN"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:42",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000BP"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:42",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000P2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:42",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000K8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:42",
+                            "kind": "content:reference_4",
+                            "detail": "PZ0040000076"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:42",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000J9"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:42",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000002T"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:42",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000JZ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:45",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000P2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:45",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000K8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 45,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:32:49",
+                    "time_end": "2020-03-09T10:32:55",
+                    "response_time_ms": 6353,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "content:query",
+                            "detail": "PZ00400000D5"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000NR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000006M"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000OU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000JB"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000OW"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000H4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000IE"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:49",
+                            "kind": "content:reference_7",
+                            "detail": "PZ004000003N"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:53",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000OW"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:53",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000IE"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 46,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:32:55",
+                    "time_end": "2020-03-09T10:33:01",
+                    "response_time_ms": 5685,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "content:query",
+                            "detail": "PZ00400000CX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000D4"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000NJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000MO"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000GK"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000KY"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000BE"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000OR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:55",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000K6"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:59",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000KY"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:32:59",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000K6"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 47,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:33:01",
+                    "time_end": "2020-03-09T10:33:10",
+                    "response_time_ms": 9057,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "content:query",
+                            "detail": "PZ00400000NN"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000KD"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "content:reference_1",
+                            "detail": "PZ00400000NH"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000Q3"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000MJ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000R7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000K2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "content:reference_6",
+                            "detail": "PZ004000005F"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:01",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000C8"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:05",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000K2"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:05",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ004000005F"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 48,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:33:10",
+                    "time_end": "2020-03-09T10:33:20",
+                    "response_time_ms": 10056,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "content:query",
+                            "detail": "PZ00400000IU"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "content:reference_0",
+                            "detail": "PZ004000009U"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "content:reference_1",
+                            "detail": "PZ004000006E"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "content:reference_2",
+                            "detail": "PZ004000006H"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "content:reference_3",
+                            "detail": "PZ00400000RQ"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "content:reference_4",
+                            "detail": "PZ00400000M0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "content:reference_5",
+                            "detail": "PZ00400000J7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000AR"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:10",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000ER"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:16",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000M0"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:16",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ00400000J7"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                },
+                {
+                    "position": 49,
+                    "kind": "rank:8rank2",
+                    "time_begin": "2020-03-09T10:33:20",
+                    "time_end": "2020-03-09T10:33:25",
+                    "response_time_ms": 4875,
+                    "grade_subjective": 100,
+                    "grade_objective": -1,
+                    "interactions": [
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "content:query",
+                            "detail": "PZ004000003B"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "content:reference_0",
+                            "detail": "PZ00400000GG"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "content:reference_1",
+                            "detail": "PZ0040000075"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "content:reference_2",
+                            "detail": "PZ00400000BX"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "content:reference_3",
+                            "detail": "PZ0040000056"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "content:reference_4",
+                            "detail": "PZ004000008W"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "content:reference_5",
+                            "detail": "PZ0040000053"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "content:reference_6",
+                            "detail": "PZ00400000NV"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:20",
+                            "kind": "content:reference_7",
+                            "detail": "PZ00400000FB"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:22",
+                            "kind": "behavior:rank_0",
+                            "detail": "PZ00400000NV"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:22",
+                            "kind": "behavior:rank_1",
+                            "detail": "PZ004000008W"
+                        },
+                        {
+                            "time_begin": "2020-03-09T10:33:25",
+                            "kind": "behavior:submit_response",
+                            "detail": "NA"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
