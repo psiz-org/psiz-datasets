@@ -18,7 +18,7 @@ TODO.md
 /.pytest_cache/
 
 # Automatic version detection
-/src/psiz_database/version.py
+/src/psiz_datasets/version.py
 
 # Sphinx documentation
 /docs/_build
