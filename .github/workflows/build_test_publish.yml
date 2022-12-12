@@ -1,0 +1,129 @@
+name: Build, lint, test, and publish Python distribution 🐍📦.
+
+on:
+  pull_request:
+  push:
+    branches:
+    - main
+    - 'r*'
+    tags:
+    - "v*"
+  release:
+    types: [published]
+
+jobs:
+  build_dist_py3:
+    name: Build Python 3.X distribution
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip setuptools
+        pip install build
+    - name: Build package
+      run: python -m build
+    - uses: actions/upload-artifact@v3
+      with:
+        name: dist-py3
+        path: dist/
+        if-no-files-found: error
+        retention-days: 3
+
+  check_dist:
+    name: Check Python 3.X distribution
+    needs: [build_dist_py3]
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.9'
+    - name: Install dependencies
+      run: pip install twine
+    - uses: actions/download-artifact@v3
+      with:
+        name: dist-py3
+        path: dist/
+    - run: twine check dist/*
+
+  lint_dist:
+    name: Lint and test Python distribution
+    needs: [build_dist_py3, check_dist]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.10']
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/download-artifact@v3
+      with:
+        name: dist-py3
+        path: dist/
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip setuptools
+        pip install flake8 pylint pytest pytest-cov
+        # if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install .
+    - name: Analyse code with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 src --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 src --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Analyse code with pylint
+      run: |
+        pylint --disable=R,C,W --ignored-modules=tensorflow src
+    - name: Run pytest with code coverage
+      if: ${{ matrix.python-version == '3.10'}}
+      run: |
+        pytest --cov-report=xml --cov=psiz tests/ 
+    - name: Run pytest without code coverage
+      if: ${{ matrix.python-version != '3.10'}}
+      run: |
+        pytest
+    - name: Upload coverage to Codecov
+      if: ${{ matrix.python-version == '3.10'}}
+      uses: codecov/codecov-action@v3
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        move_coverage_to_trash: true
+
+  publish_dist:
+    name: Publish Python distribution
+    needs: [build_dist_py3, check_dist, lint_dist]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/download-artifact@v3
+      with:
+        name: dist-py3
+        path: dist/
+    - name: echo state
+      run: |
+        echo "github.event_name = $GITHUB_EVENT_NAME"
+        echo "github.ref = $GITHUB_REF"
+    - name: Publish distribution to Test PyPI
+      if: ${{ github.ref != 'refs/heads/main' && github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags/v')}}
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: __token__
+        password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+        repository_url: https://test.pypi.org/legacy/
+    - name: Publish distribution to PyPI
+      if: ${{ startsWith(github.ref, 'refs/tags/v') && github.event_name == 'release'}}
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: __token__
+        password: ${{ secrets.PYPI_API_TOKEN }}
