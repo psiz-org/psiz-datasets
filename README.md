@@ -7,8 +7,8 @@
 
 ---
 
-## Guiding Principles
-The dataset generators should be written such that minimal code changes are necessary, but users are afforded maximum flexibility to achieve their modeling goals.
+## Purpose
+Provide pre-formatted TensorFlow Datasets for easy consumption by models.
 
 ## Resources
 * Official Psiz Documentation: [psiz.readthedocs.io/en/latest](https://psiz.readthedocs.io/en/latest/)
