@@ -1,0 +1,4 @@
+recursive-include src/psiz_datasets checksums.tsv
+recursive-include src/psiz_datasets DESCRIPTION.md
+recursive-include src/psiz_datasets CITATIONS.bib
+recursive-include src/psiz_datasets TAGS.txt
