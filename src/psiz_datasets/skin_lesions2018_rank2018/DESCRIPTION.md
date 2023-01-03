@@ -5,9 +5,9 @@ Human participants viewed trials composed of multiple images taken from the Skin
 Participants were shown *8-rank-2* trials. The dataset is formatted into three pieces: the *content* of the trial, the *group* membership of the participant, and the participant's observed *behavior*.
 
 * Content:
-    * `/stimulus_set`: An array of indices that map to images. Indexing starts at `1`.
+    * `_stimulus_set`: An array of indices that map to images. Indexing starts at `1`.
 * Group:
-    * `/anonymous_id`: A unique anonymous identifier for each participant.
+    * `_anonymous_id`: A unique anonymous identifier for each participant.
 * Behavior:
-    * `/outcome`: A one-hot encoding representing the unique outcome of the participant's selection(s).
-    * `/sample_weight`: The weight of a trial, which is derived from participant performance on catch trials.
+    * `_outcome`: A one-hot encoding representing the unique outcome of the participant's selection(s).
+    * `_sample_weight`: The weight of a trial, which is derived from participant performance on catch trials.

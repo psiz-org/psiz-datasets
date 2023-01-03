@@ -108,12 +108,12 @@ class Birds16Rank2019(tfds.core.GeneratorBasedBuilder):
         encoding = tfds.features.Encoding.NONE
         if self.builder_config.name == 'with_timestep':
             features = tfds.features.FeaturesDict({
-                '2rank1/stimulus_set': tfds.features.Sequence(
+                'given2rank1_stimulus_set': tfds.features.Sequence(
                     tfds.features.Tensor(
                         shape=(3,), dtype=tf.int32, encoding=encoding
                     ), length=self.builder_config.max_timestep
                 ),
-                '8rank2/stimulus_set': tfds.features.Sequence(
+                'given8rank2_stimulus_set': tfds.features.Sequence(
                     tfds.features.Tensor(
                         shape=(9,), dtype=tf.int32, encoding=encoding
                     ), length=self.builder_config.max_timestep
@@ -122,85 +122,89 @@ class Birds16Rank2019(tfds.core.GeneratorBasedBuilder):
                     tfds.features.Text(),
                     length=self.builder_config.max_timestep
                 ),
-                '2rank1/outcome': tfds.features.Sequence(
+                'given2rank1_outcome': tfds.features.Sequence(
                     tfds.features.Tensor(
                         shape=(_N_OUTCOME_2RANK1,), dtype=tf.float32,
                         encoding=encoding
                     ), length=self.builder_config.max_timestep
                 ),
-                '2rank1/response_time_ms': tfds.features.Sequence(
+                'given2rank1_response_time_ms': tfds.features.Sequence(
                     tf.float32, length=self.builder_config.max_timestep
                 ),
-                '2rank1/sample_weight': tfds.features.Sequence(
+                'given2rank1_sample_weight': tfds.features.Sequence(
                     tf.float32, length=self.builder_config.max_timestep
                 ),
-                '8rank2/outcome': tfds.features.Sequence(
+                'given8rank2_outcome': tfds.features.Sequence(
                     tfds.features.Tensor(
                         shape=(_N_OUTCOME_8RANK2,), dtype=tf.float32,
                         encoding=encoding
                     ), length=self.builder_config.max_timestep
                 ),
-                '8rank2/response_time_ms': tfds.features.Sequence(
+                'given8rank2_response_time_ms': tfds.features.Sequence(
                     tf.float32, length=self.builder_config.max_timestep
                 ),
-                '8rank2/sample_weight': tfds.features.Sequence(
+                'given8rank2_sample_weight': tfds.features.Sequence(
                     tf.float32, length=self.builder_config.max_timestep
                 )
             })
             supervised_keys = (
                 {
-                    '2rank1/stimulus_set': '2rank1/stimulus_set',
-                    '8rank2/stimulus_set': '8rank2/stimulus_set',
+                    'given2rank1_stimulus_set': 'given2rank1_stimulus_set',
+                    'given8rank2_stimulus_set': 'given8rank2_stimulus_set',
                     'anonymous_id': 'anonymous_id',
                 },
                 {
-                    '2rank1/outcome': '2rank1/outcome',
-                    '2rank1/response_time_ms': '2rank1/response_time_ms',
-                    '8rank2/outcome': '8rank2/outcome',
-                    '8rank2/response_time_ms': '8rank2/response_time_ms',
+                    'given2rank1_outcome': 'given2rank1_outcome',
+                    'given2rank1_response_time_ms':
+                        'given2rank1_response_time_ms',
+                    'given8rank2_outcome': 'given8rank2_outcome',
+                    'given8rank2_response_time_ms':
+                        'given8rank2_response_time_ms',
                 },
                 {
-                    '2rank1/sample_weight': '2rank1/sample_weight',
-                    '8rank2/sample_weight': '8rank2/sample_weight',
+                    'given2rank1_sample_weight': 'given2rank1_sample_weight',
+                    'given8rank2_sample_weight': 'given8rank2_sample_weight',
                 }
             )
         elif self.builder_config.name == 'without_timestep':
             features = tfds.features.FeaturesDict({
-                '2rank1/stimulus_set': tfds.features.Tensor(
+                'given2rank1_stimulus_set': tfds.features.Tensor(
                     shape=(3,), dtype=tf.int32, encoding=encoding
                 ),
-                '8rank2/stimulus_set': tfds.features.Tensor(
+                'given8rank2_stimulus_set': tfds.features.Tensor(
                     shape=(9,), dtype=tf.int32, encoding=encoding
                 ),
                 'anonymous_id': tfds.features.Text(),
-                '2rank1/outcome': tfds.features.Tensor(
+                'given2rank1_outcome': tfds.features.Tensor(
                     shape=(_N_OUTCOME_2RANK1,), dtype=tf.float32,
                     encoding=encoding
                 ),
-                '2rank1/response_time_ms': tf.float32,
-                '2rank1/sample_weight': tf.float32,
-                '8rank2/outcome': tfds.features.Tensor(
+                'given2rank1_response_time_ms': tf.float32,
+                'given2rank1_sample_weight': tf.float32,
+                'given8rank2_outcome': tfds.features.Tensor(
                     shape=(_N_OUTCOME_8RANK2,), dtype=tf.float32,
                     encoding=encoding
                 ),
-                '8rank2/response_time_ms': tf.float32,
-                '8rank2/sample_weight': tf.float32,
+                'given8rank2_response_time_ms': tf.float32,
+                'given8rank2_sample_weight': tf.float32,
             })
             supervised_keys = (
                 {
-                    '2rank1/stimulus_set': '2rank1/stimulus_set',
-                    '8rank2/stimulus_set': '8rank2/stimulus_set',
+                    'given2rank1_stimulus_set': 'given2rank1_stimulus_set',
+                    'given8rank2_stimulus_set': 'given8rank2_stimulus_set',
                     'anonymous_id': 'anonymous_id',
                 },
                 {
-                    '2rank1/outcome': '2rank1/outcome',
-                    '2rank1/response_time_ms': '2rank1/response_time_ms',
-                    '8rank2/outcome': '8rank2/outcome',
-                    '8rank2/response_time_ms': '8rank2/response_time_ms',
+                    'given2rank1_outcome': 'given2rank1_outcome',
+                    'given2rank1_response_time_ms':
+                        'given2rank1_response_time_ms',
+                    'given8rank2_outcome': 'given8rank2_outcome',
+                    'given8rank2_response_time_ms':
+                        'given8rank2_response_time_ms',
                 },
                 {
-                    '2rank1/sample_weight': '2rank1/sample_weight',
-                    '8rank2/sample_weight': '8rank2/sample_weight',
+                    'given2rank1_sample_weight': 'given2rank1_sample_weight',
+                    'given8rank2_sample_weight': 'given8rank2_sample_weight',
                 }
             )
 
@@ -292,30 +296,32 @@ def format_timestep(formatted_sequence, timestep, groups, grade):
     """Format timestep."""
     if formatted_sequence is None:
         formatted_sequence = {
-            '8rank2/stimulus_set': [],
-            '2rank1/stimulus_set': [],
+            'given8rank2_stimulus_set': [],
+            'given2rank1_stimulus_set': [],
             'anonymous_id': [],
-            '8rank2/outcome': [],
-            '8rank2/response_time_ms': [],
-            '8rank2/sample_weight': [],
-            '2rank1/outcome': [],
-            '2rank1/response_time_ms': [],
-            '2rank1/sample_weight': [],
+            'given8rank2_outcome': [],
+            'given8rank2_response_time_ms': [],
+            'given8rank2_sample_weight': [],
+            'given2rank1_outcome': [],
+            'given2rank1_response_time_ms': [],
+            'given2rank1_sample_weight': [],
         }
 
     if timestep['kind'] == "rank:8rank2":
         stimulus_set, outcome_idx, rt_ms = parse_rank_timestep(timestep)
 
         # Handle content.
-        formatted_sequence['8rank2/stimulus_set'].append(stimulus_set)
+        formatted_sequence['given8rank2_stimulus_set'].append(stimulus_set)
         # Handle group information.
         formatted_sequence['anonymous_id'].append(groups['anonymous_id'])
         # Handle outcome.
-        formatted_sequence['8rank2/outcome'].append(
+        formatted_sequence['given8rank2_outcome'].append(
             one_hot(outcome_idx, _N_OUTCOME_8RANK2)
         )
-        formatted_sequence['8rank2/response_time_ms'].append(rt_ms['total'])
-        formatted_sequence['8rank2/sample_weight'].append(grade / 100)
+        formatted_sequence[
+            'given8rank2_response_time_ms'
+        ].append(rt_ms['total'])
+        formatted_sequence['given8rank2_sample_weight'].append(grade / 100)
 
         # Handle placeholder trials.
         formatted_sequence = append_rank_placeholder(
@@ -326,15 +332,17 @@ def format_timestep(formatted_sequence, timestep, groups, grade):
         stimulus_set, outcome_idx, rt_ms = parse_rank_timestep(timestep)
 
         # Handle content.
-        formatted_sequence['2rank1/stimulus_set'].append(stimulus_set)
+        formatted_sequence['given2rank1_stimulus_set'].append(stimulus_set)
         # Handle group information.
         formatted_sequence['anonymous_id'].append(groups['anonymous_id'])
         # Handle outcome.
-        formatted_sequence['2rank1/outcome'].append(
+        formatted_sequence['given2rank1_outcome'].append(
             one_hot(outcome_idx, _N_OUTCOME_2RANK1)
         )
-        formatted_sequence['2rank1/response_time_ms'].append(rt_ms['total'])
-        formatted_sequence['2rank1/sample_weight'].append(grade / 100)
+        formatted_sequence[
+            'given2rank1_response_time_ms'
+        ].append(rt_ms['total'])
+        formatted_sequence['given2rank1_sample_weight'].append(grade / 100)
 
         # Handle placeholder trials.
         formatted_sequence = append_rank_placeholder(

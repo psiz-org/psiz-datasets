@@ -32,10 +32,10 @@ def append_rank_placeholder(
     formatted_sequence, n_reference=None, n_select=None
 ):
     """Append placeholder rank trial."""
-    prefix = '{0}rank{1}'.format(n_reference, n_select)
+    prefix = 'given{0}rank{1}'.format(n_reference, n_select)
     # Handle content.
     stimulus_set = np.zeros([n_reference + 1], dtype=np.int32)
-    formatted_sequence[prefix + '/stimulus_set'].append(stimulus_set)
+    formatted_sequence[prefix + '_stimulus_set'].append(stimulus_set)
 
     # Handle outcome.
     # NOTE: Can not make outcome all zeros because it will result in nan's
@@ -47,12 +47,12 @@ def append_rank_placeholder(
         n_outcome = _N_OUTCOME_2RANK1
     else:
         raise NotImplementedError('Unrecognized rank configuration.')
-    formatted_sequence[prefix + '/outcome'].append(
+    formatted_sequence[prefix + '_outcome'].append(
         one_hot(outcome_idx, n_outcome)
     )
     rt_ms = 0.0
-    formatted_sequence[prefix + '/response_time_ms'].append(rt_ms)
+    formatted_sequence[prefix + '_response_time_ms'].append(rt_ms)
     weight = 0.0
-    formatted_sequence[prefix + '/sample_weight'].append(weight)
+    formatted_sequence[prefix + '_sample_weight'].append(weight)
 
     return formatted_sequence
