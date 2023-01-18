@@ -1,6 +1,7 @@
 # Project-specific files.
 /tmp_data/
 TODO.md
+NOTES.md
 
 # Compiled python modules.
 *.pyc
