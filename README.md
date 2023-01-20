@@ -8,10 +8,11 @@
 ---
 
 ## Purpose
-Provide pre-formatted TensorFlow Datasets for easy consumption by models.
+Provide pre-formatted TensorFlow Datasets for hassle-free model ingestion.
 
 ## Resources
 * Official Psiz Documentation: [psiz.readthedocs.io/en/latest](https://psiz.readthedocs.io/en/latest/)
+* Raw JSON-formatted data files used to create TensorFlow Datasets: [osf.io psiz-datasets](https://osf.io/cn2s3/)
 
 ## Installation
 There are two different ways to install: PyPI or git.
