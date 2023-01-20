@@ -88,7 +88,7 @@ jobs:
     - name: Run pytest with code coverage
       if: ${{ matrix.python-version == '3.10'}}
       run: |
-        pytest --cov-report=xml --cov=psiz tests/ 
+        pytest --cov-report=xml --cov=psiz-datasets src/ 
     - name: Run pytest without code coverage
       if: ${{ matrix.python-version != '3.10'}}
       run: |
