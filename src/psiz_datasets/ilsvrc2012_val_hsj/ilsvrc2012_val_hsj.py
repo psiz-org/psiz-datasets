@@ -29,7 +29,7 @@ from psiz_datasets.utils import one_hot
 from psiz_datasets.utils import parse_rank_timestep
 
 
-_VERSION = tfds.core.Version('1.0.0')
+_VERSION = tfds.core.Version('1.0.1')
 _DESCRIPTION = pkgutil.get_data(__name__, 'DESCRIPTION.md').decode("utf-8")
 _HOMEPAGE = 'https://psiz.readthedocs.io/en/latest/src/datasets/datasets.html'
 _CITATION = pkgutil.get_data(__name__, 'CITATIONS.bib').decode("utf-8")
