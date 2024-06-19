@@ -59,7 +59,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.9', '3.10', '3.11']
+        python-version: ['3.9', '3.10']
     steps:
     - uses: actions/checkout@v3
     - uses: actions/download-artifact@v3
@@ -86,15 +86,15 @@ jobs:
       run: |
         pylint --disable=R,C,W --ignored-modules=tensorflow src
     - name: Run pytest with code coverage
-      if: ${{ matrix.python-version == '3.11'}}
+      if: ${{ matrix.python-version == '3.10'}}
       run: |
         pytest --cov-report=xml --cov=psiz-datasets src/ 
     - name: Run pytest without code coverage
-      if: ${{ matrix.python-version != '3.11'}}
+      if: ${{ matrix.python-version != '3.10'}}
       run: |
         pytest
     - name: Upload coverage to Codecov
-      if: ${{ matrix.python-version == '3.11'}}
+      if: ${{ matrix.python-version == '3.10'}}
       uses: codecov/codecov-action@v3
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
