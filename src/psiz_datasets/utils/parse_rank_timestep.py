@@ -63,6 +63,10 @@ def parse_rank_timestep(timestep):
             local_idx = int(local_id, base)
             selections.append(local_idx)
             selection_order.append(int(interaction['kind'].split('_')[1]))
+        else:
+            raise NotImplementedError(
+                f"Unrecognized interaction['kind'] {interaction['kind']}"
+            )
 
     # Convert lists to arrays.
     references = np.array(references, dtype=np.int32)
@@ -85,6 +89,7 @@ def parse_rank_timestep(timestep):
         )
 
     # Finalize pieces.
+    # pylint: disable-next=possibly-used-before-assignment
     stimulus_set = np.hstack([np.array([query]), references]).astype(np.int32)
     outcome_idx = Rank.as_sparse_outcome(n_reference, selection_indices)
     rt_ms = {}

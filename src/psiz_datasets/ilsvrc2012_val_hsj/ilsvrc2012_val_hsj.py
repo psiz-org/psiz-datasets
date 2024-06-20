@@ -172,6 +172,8 @@ class Ilsvrc2012ValHsj(tfds.core.GeneratorBasedBuilder):
                     'given8rank2_sample_weight': 'given8rank2_sample_weight',
                 }
             )
+        else:
+            raise NotImplementedError(f"Unrecognized builder_config.name {self.builder_config.name}")
 
         return tfds.core.DatasetInfo(
             builder=self,
