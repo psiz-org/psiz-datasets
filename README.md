@@ -3,6 +3,7 @@
 # PsiZ Datasets
 [![PyPI version](https://badge.fury.io/py/psiz-datasets.svg)](https://badge.fury.io/py/psiz-datasets)
 [![Python](https://img.shields.io/pypi/pyversions/psiz-datasets.svg?style=plastic)](https://badge.fury.io/py/psiz-datasets)
+[![codecov](https://codecov.io/github/psiz-org/psiz-datasets/graph/badge.svg?token=2ENUG6MC37)](https://codecov.io/github/psiz-org/psiz-datasets)
 
 ---
 **WARNING:** This package is pre-release and the API is not stable. All APIs are subject to change and all releases are alpha.
