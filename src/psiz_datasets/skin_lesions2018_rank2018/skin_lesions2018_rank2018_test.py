@@ -19,27 +19,25 @@ import tensorflow_datasets as tfds
 from psiz_datasets import skin_lesions2018_rank2018
 
 
-class SkinLesions2018Rank2018WithTimestepTest(
-    tfds.testing.DatasetBuilderTestCase
-):
+class SkinLesions2018Rank2018WithTimestepTest(tfds.testing.DatasetBuilderTestCase):
     """Tests for skin_lesions2018_rank2018 dataset."""
+
     DATASET_CLASS = skin_lesions2018_rank2018.SkinLesions2018Rank2018
     BUILDER_CONFIG_NAMES_TO_TEST = ["with_timestep"]
     SPLITS = {
-        'train': 3,
+        "train": 3,
     }
 
 
-class SkinLesions2018Rank2018WithoutTimestepTest(
-    tfds.testing.DatasetBuilderTestCase
-):
+class SkinLesions2018Rank2018WithoutTimestepTest(tfds.testing.DatasetBuilderTestCase):
     """Tests for skin_lesions2018_rank2018 dataset."""
+
     DATASET_CLASS = skin_lesions2018_rank2018.SkinLesions2018Rank2018
     BUILDER_CONFIG_NAMES_TO_TEST = ["without_timestep"]
     SPLITS = {
-        'train': 89,
+        "train": 89,
     }
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     tfds.testing.test_main()

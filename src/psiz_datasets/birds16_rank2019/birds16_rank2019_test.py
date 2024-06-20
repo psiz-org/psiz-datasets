@@ -19,27 +19,25 @@ import tensorflow_datasets as tfds
 from psiz_datasets import birds16_rank2019
 
 
-class Birds16Rank2019WithTimestepTest(
-    tfds.testing.DatasetBuilderTestCase
-):
+class Birds16Rank2019WithTimestepTest(tfds.testing.DatasetBuilderTestCase):
     """Tests for birds16_rank2019 dataset."""
+
     DATASET_CLASS = birds16_rank2019.Birds16Rank2019
     BUILDER_CONFIG_NAMES_TO_TEST = ["with_timestep"]
     SPLITS = {
-        'train': 2,
+        "train": 2,
     }
 
 
-class Birds16Rank2019WithoutTimestepTest(
-    tfds.testing.DatasetBuilderTestCase
-):
+class Birds16Rank2019WithoutTimestepTest(tfds.testing.DatasetBuilderTestCase):
     """Tests for birds16_rank2019 dataset."""
+
     DATASET_CLASS = birds16_rank2019.Birds16Rank2019
     BUILDER_CONFIG_NAMES_TO_TEST = ["without_timestep"]
     SPLITS = {
-        'train': 60,
+        "train": 60,
     }
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     tfds.testing.test_main()

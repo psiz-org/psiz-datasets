@@ -49,20 +49,20 @@ def parse_rank_timestep(timestep):
     selection_order = []
 
     # Keep stimulus order preserved and infer outcome index.
-    for interaction in timestep['interactions']:
-        if interaction['kind'] == 'content:query':
-            _, _, local_id = parse_asset_id(interaction['detail'])
+    for interaction in timestep["interactions"]:
+        if interaction["kind"] == "content:query":
+            _, _, local_id = parse_asset_id(interaction["detail"])
             query = int(local_id, base)
-        elif 'content:reference' in interaction['kind']:
-            _, _, local_id = parse_asset_id(interaction['detail'])
+        elif "content:reference" in interaction["kind"]:
+            _, _, local_id = parse_asset_id(interaction["detail"])
             local_idx = int(local_id, base)
             references.append(local_idx)
-            reference_order.append(int(interaction['kind'].split('_')[1]))
-        elif 'behavior:rank' in interaction['kind']:
-            _, _, local_id = parse_asset_id(interaction['detail'])
+            reference_order.append(int(interaction["kind"].split("_")[1]))
+        elif "behavior:rank" in interaction["kind"]:
+            _, _, local_id = parse_asset_id(interaction["detail"])
             local_idx = int(local_id, base)
             selections.append(local_idx)
-            selection_order.append(int(interaction['kind'].split('_')[1]))
+            selection_order.append(int(interaction["kind"].split("_")[1]))
 
     # Convert lists to arrays.
     references = np.array(references, dtype=np.int32)
@@ -80,14 +80,13 @@ def parse_rank_timestep(timestep):
     dmy_idx = np.arange(n_reference)
     selection_indices = []
     for selection in selections:
-        selection_indices.append(
-            dmy_idx[np.equal(references, selection)][0]
-        )
+        selection_indices.append(dmy_idx[np.equal(references, selection)][0])
 
     # Finalize pieces.
+    # pylint: disable-next=possibly-used-before-assignment
     stimulus_set = np.hstack([np.array([query]), references]).astype(np.int32)
     outcome_idx = Rank.as_sparse_outcome(n_reference, selection_indices)
     rt_ms = {}
-    rt_ms['total'] = timestep['response_time_ms']
+    rt_ms["total"] = timestep["response_time_ms"]
 
     return stimulus_set, outcome_idx, rt_ms
