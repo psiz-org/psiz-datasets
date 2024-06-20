@@ -63,10 +63,6 @@ def parse_rank_timestep(timestep):
             local_idx = int(local_id, base)
             selections.append(local_idx)
             selection_order.append(int(interaction['kind'].split('_')[1]))
-        else:
-            raise NotImplementedError(
-                f"Unrecognized interaction['kind'] {interaction['kind']}"
-            )
 
     # Convert lists to arrays.
     references = np.array(references, dtype=np.int32)

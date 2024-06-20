@@ -10,3 +10,5 @@ The dataset generators should be written such that minimal code changes are nece
 ## Common Tasks
 * Build and overwrite: `tfds build <dataset_dir_name> --overwrite`
 * Build, overwrite, and register checksums: `tfds build <dataset_dir_name> --overwrite --register_checksums`
+* Run pylint inside psiz-datasets root directory: `pylint --disable=R,C,W --ignored-modules=tensorflow src`
+* Run pytest inside psiz-datasets root directory using current virtual environment: `python -m pytest`
