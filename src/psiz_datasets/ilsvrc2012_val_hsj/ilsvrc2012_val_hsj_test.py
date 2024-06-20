@@ -19,29 +19,27 @@ import tensorflow_datasets as tfds
 from psiz_datasets import ilsvrc2012_val_hsj
 
 
-class Ilsvrc2012ValHsjWithTimestepTest(
-    tfds.testing.DatasetBuilderTestCase
-):
+class Ilsvrc2012ValHsjWithTimestepTest(tfds.testing.DatasetBuilderTestCase):
     """Tests for ilsvrc2012_val_hsj dataset."""
+
     DATASET_CLASS = ilsvrc2012_val_hsj.Ilsvrc2012ValHsj
     BUILDER_CONFIG_NAMES_TO_TEST = ["with_timestep"]
     SPLITS = {
-        'train': 2,
-        'test': 1,
+        "train": 2,
+        "test": 1,
     }
 
 
-class Ilsvrc2012ValHsjWithoutTimestepTest(
-    tfds.testing.DatasetBuilderTestCase
-):
+class Ilsvrc2012ValHsjWithoutTimestepTest(tfds.testing.DatasetBuilderTestCase):
     """Tests for ilsvrc2012_val_hsj dataset."""
+
     DATASET_CLASS = ilsvrc2012_val_hsj.Ilsvrc2012ValHsj
     BUILDER_CONFIG_NAMES_TO_TEST = ["without_timestep"]
     SPLITS = {
-        'train': 80,
-        'test': 50,
+        "train": 80,
+        "test": 50,
     }
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     tfds.testing.test_main()

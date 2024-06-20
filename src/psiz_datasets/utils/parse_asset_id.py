@@ -36,6 +36,6 @@ def parse_asset_id(asset_id):
     subdomain_length = 3
 
     domain_id = asset_id[0:domain_length]
-    subdomain_id = asset_id[domain_length:(domain_length + subdomain_length)]
-    local_id = asset_id[(domain_length + subdomain_length):]
+    subdomain_id = asset_id[domain_length : (domain_length + subdomain_length)]
+    local_id = asset_id[(domain_length + subdomain_length) :]
     return domain_id, subdomain_id, local_id

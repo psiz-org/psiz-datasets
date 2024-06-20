@@ -21,8 +21,8 @@ from psiz_datasets.utils.parse_asset_id import parse_asset_id
 from psiz_datasets.utils.parse_rank_timestep import parse_rank_timestep
 
 __all__ = [
-    'append_rank_placeholder',
-    'one_hot',
-    'parse_asset_id',
-    'parse_rank_timestep',
+    "append_rank_placeholder",
+    "one_hot",
+    "parse_asset_id",
+    "parse_rank_timestep",
 ]
